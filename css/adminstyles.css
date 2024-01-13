@@ -1,0 +1,55 @@
+body {
+	background-color: #edeef5;
+}
+ 
+
+.mainBar {
+	background-color: #e30d0d;
+}
+
+.side_menu{
+	background-color: rgb(74, 37, 105);
+}
+.side_menu a{
+	color: #37ad13;
+	margin-bottom: 5px;
+
+}
+
+.side_menu .active a{
+	color: #970c0c;
+	font-weight: bold;
+	background-color: #507DBC;
+}
+
+.side_menu a:hover {
+	color: #01780b;
+	display: block;
+	font-weight: bold;
+	background-color: #b5b9f7;
+}
+
+.side_menu .active a:hover{
+	color: #01783d;
+	background-color: #27aae1;
+}
+
+.fieldInfo {
+	color: #e5e6f1;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#Footer {
+	padding: 10px;
+	border-top: 1px solid black;
+	color: rgb(121, 21, 179);
+	background-color: #7f1bb1;
+	text-align: center;
+}
+#Footer hr{
+	background-color: rgba(24, 173, 111, 0.8);
+}
+
+
