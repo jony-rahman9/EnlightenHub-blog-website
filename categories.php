@@ -2,7 +2,7 @@
 <?php require_once("include/Sessions.php"); ?>
 <?php require_once("include/Functions.php"); ?>
 
-<?php confirm_Login(); ?>
+
 
 <?php  
 if(isset($_POST['Submit'])) {
