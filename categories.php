@@ -19,20 +19,7 @@ if(isset($_POST['Submit'])) {
     } elseif (strlen($Category) > 99) {
         $_SESSION["ErrorMessage"] = "Too long name for category.";
         Redirect_to("categories.php");
-    } else {  
-        global $Connection;
-
-        $insertQuery = "INSERT INTO category(datetime, name, creatorname) VALUES ('$DateTime', '$Category', '$Admin')";
-        $Execute = mysqli_query($Connection, $insertQuery);
-
-        if ($Execute) {
-            $_SESSION["SuccessMessage"] = "Category added successfully!";
-            Redirect_to("categories.php");
-        } else {
-            $_SESSION["ErrorMessage"] = "Category not added.";
-            Redirect_to("categories.php");
-        }
-    }
+    } else 
 }
 ?>
 
